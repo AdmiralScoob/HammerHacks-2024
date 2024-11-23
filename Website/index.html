@@ -18,12 +18,18 @@
             var index = 0;
         
             var quotes = [
-                '"I really like web development!" - ',
+                '"I really like web development!" - Dave Smity-Hayes',
                 '"If you sit, you are sitting." - Divyansh Shukla',
-                '"I looked like this when I was young, and I still do." - Yogi Barra'
+                '"I looked like this when I was young, and I still do." - Yogi Barra',
+                '"I am utterly confluzled" - Cooper Cooke'
             ]
             var blockquote = document.querySelector("blockquote");
             blockquote.innerHTML = quotes[index];
+
+            index++
+            if (index >= 4) {
+                index = 0;
+            }
         }</script>
     </body>
 </html>
